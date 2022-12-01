@@ -1,5 +1,6 @@
 .nav{background-color: #333;
-    overflow: hidden;}
+    overflow: hidden;
+height: 60px;}
 
 .nav a {text-align: center;
       float:left;
@@ -12,12 +13,12 @@ font-family:algerian;}
 .nav a:hover{background-color: #ddd;
 color:black;}
 
-.nav a:active{background-color:crimson;
+.nav a:active{background-color:black;
 color: white;}
 
 
 div.gallery{margin: 5px;
-              border: 2px solid red;
+              border: 2px solid black;
               width: 40%;
 }
 
@@ -31,16 +32,25 @@ div.desc {  padding: 15px;
     text-align: center;
   }
 
-  footer { width: 100%;
-margin-top: 650px;
+  
+footer { width: 100%;
+    height: 36%;
+    position: absolute;
+    bottom: 2px;
     background-color: #333;
     font-size: 25px;
-    line-height:2px;
+    line-height:0px;
+    gap: 10px;
+    top: 1280px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    
+
 
 }
-.food { width: 80px;
-margin-bottom: 00px;}
-
+.food { width: 120px;
+    height: 80px;
+}
 .row {
 
     width: 85%;
@@ -53,24 +63,24 @@ margin-bottom: 00px;}
 .coloumn { 
     width: 100%;
     float: left;
+    justify-content: center;
 color: white;}
 
-.logo {width: 80px; 
-     margin-bottom: 00px;
-}
+
 
 .coloumn h4 {width: fit-content;
     margin-bottom: 00px;
 
     ;}
 
-.ul li {list-style: none;
-      padding: 8px;
-
-}
 
 .ul li a {text-decoration: none;
 
 }
 
 
+
+.bgimg{background-image: url('resort.jpg');
+    background-position: center;
+    height: 100px
+}
