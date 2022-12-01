@@ -1,4 +1,8 @@
-.bgimg{background-image: url('resort.jpg');}
+.bgimg{background-image: url('resort.jpg');
+     background-position: center;
+     height: 99px;
+
+}
 .nav{background-color: #333;
      overflow: hidden;
 margin-top: 3px;}
@@ -21,36 +25,47 @@ color: white;}
 .offers h3 {text-align: center;
 float: left;
 padding: 5px 80px;
-color: red;
+color: black;
+background-color: rgba(244, 243, 243, 0.323);
 }
 
 .welcome {width: 50%; 
+     height:100%;
      float:left;
-     border: 2px solid black; width: 730px; height: 360px; border-radius: 15px;
-     background-image: url("cusine.jpg"); 
+     border: 2px solid black; width: 730px; height:400px; border-radius: 20px;
+     background-image: url("resort.jpg"); 
+     background-size: cover;
+     background-position: center;
      color: black; 
 }
 
 .special { width: 50%;
       float: right;
-     border: 2px solid black; width: 760px; height: 360px ; border-radius: 15px;
+     border: 2px solid black; width: 730px; height: 400px ; border-radius: 20px;
      background-image: url("cusine.jpg"); 
+     background-position: center;
+     background-size: cover;
      color: black; 
 }
 
 footer { width: 100%;
+     height: 36%;
      position: absolute;
-     bottom: 0;
+     bottom: 2px;
      background-color: #333;
      font-size: 25px;
-     line-height:2px;
-
+     line-height:0px;
+     gap: 10px;
+     top: 600px;
+     border-top-right-radius: 100px;
+     border-top-left-radius: 100px;
+     
 
 
 }
-.food { width: 80px;
-margin-bottom: 00px;}
-
+.food { width: 120px;
+     height: 80px;
+}
 .row {
 
      width: 85%;
@@ -73,13 +88,9 @@ color: white;}
 
      ;}
 
-.ul li {list-style: none;
-       padding: 8px;
-
-}
 
 .ul li a {text-decoration: none;
 
 }
-
+ 
 
