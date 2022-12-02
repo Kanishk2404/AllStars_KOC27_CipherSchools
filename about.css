@@ -1,0 +1,57 @@
+.body{
+    background-image: url(abbout.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+}
+.R{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    background-color: rgb(228, 157, 65);
+    margin: 30px;
+    font-size: 50px;
+}
+.D{
+    position: absolute;
+    left: 62%;
+    top: 30%;
+    background-color:rgb(228, 157, 65);
+    margin: 30px;
+    font-size: 50px;
+}
+.V{
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    
+    font-size: 25px;
+    margin: 50px;
+    padding: 30px;
+    color: rgb(248, 236, 221);
+}
+.veg{
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    font-size: 25px;
+    margin: 50px;
+    padding: 30px;
+    color: rgb(248, 236, 221);
+}
+.veg2{
+    position: absolute;
+    top: 38%;
+    left: 44%;
+    font-size: 25px;
+    color: rgb(228, 236, 221);
+    
+}
+.V1{
+    position: absolute;
+    left: 40%;
+    top: 3%;
+    font-size: 25px;
+    margin: 50px;
+    padding: 30px;
+    color: rgb(248, 236, 221);
+}

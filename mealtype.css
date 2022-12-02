@@ -6,7 +6,7 @@
    font-size: 35px;
 padding: 8px 40px;
 text-decoration: none;
-color: aqua;
+color:rgb(2, 183, 249);;
 font-family:algerian;}
 
 .nav a:hover{background-color: #ddd;
@@ -14,3 +14,7 @@ color:black;}
 
 .nav a:active{background-color:crimson;
 color: white;}
+
+.bgimg{background-image: url('resort.jpg');
+    background-position: center;
+    height: 99px;}

@@ -1,16 +1,11 @@
 /* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
-}
+
+
 body{
-  min-height: 100vh;
+  
   width: 100%;
   background: #c8e8e9;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -20,6 +15,7 @@ body{
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
 }
 .container .content{
   display: flex;
@@ -148,3 +144,76 @@ body{
    margin-left: 0;
  }
 }
+
+.nav{background-color: #333;
+  overflow: hidden;
+margin-top: 3px;
+top: 100px;
+top:2px;}
+
+.nav a {text-align: center;
+    float:left;
+ font-size: 35px;
+padding: 8px 40px;
+text-decoration: none;
+color: aqua;
+font-family:algerian;}
+
+.nav a:hover{background-color: #ddd;
+color:black;}
+
+.nav a:active{background-color:crimson;
+color: white;}
+
+footer { width: 100%;
+  height: 36%;
+  position: absolute;
+  bottom: 2px;
+  background-color: #333;
+  font-size: 25px;
+  line-height:0px;
+  gap: 10px;
+  top: 630px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+
+}
+
+.bgimg{background-image: url('resort.jpg');
+  background-position: center;
+  height: 100px; margin-top: auto;
+  top: auto;
+}
+
+.food { width: 120px;
+  height: 80px;
+}
+.row {
+
+  width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.coloumn { 
+  width: 100%;
+  float: left;
+  justify-content: center;
+color: white;}
+
+
+
+.coloumn h4 {width: fit-content;
+  margin-bottom: 00px;
+
+  ;}
+
+
+.ul li a {text-decoration: none;
+
+}
+
+
+
