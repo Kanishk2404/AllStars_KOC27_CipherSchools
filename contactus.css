@@ -48,7 +48,7 @@ body{
 }
 .content .left-side .details i{
   font-size: 30px;
-  color: #3e2093;
+  color: #3f2093;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -67,7 +67,7 @@ body{
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: #3e2093;
+  color: #3f2093;
 }
 .right-side .input-box{
   height: 50px;
@@ -103,12 +103,12 @@ body{
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #3e2093;
+  background: #3f2093;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
-  background: #5029bc;
+  background: #3f2093;
 }
 
 @media (max-width: 950px) {
